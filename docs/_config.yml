@@ -4,8 +4,8 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : brabidea/brabidea.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -24,24 +24,24 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Brian Rabideau
-  image             : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.visitsouthbend.com%2Fnotre-dame%2F&psig=AOvVaw3PEzvazDnG9px9oqP8l2si&ust=1709780030031000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMiQ2YzR3oQDFQAAAAAdAAAAABAE
-#  behance           : brabidea
-# dribbble          : brabidea
-  email             : brabidea@nd.edu
-#  facebook          : brabidea
-  github            : brabidea
-# gitlab            : brabidea
-# instagram         : brabidea
-# kaggle            : brabideae
-  linkedin          : brabidea
-#  medium            : brabidea
-# soundcloud        : brabidea
-# spotify           : brabideae
+  name              : John Doe
+  image             : https://i.imgur.com/uyDNQnn.jpg
+  behance           : your_username
+# dribbble          : your_username
+  email             : username@domain.com
+  facebook          : your_username
+  github            : your_username
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : your_username
+  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-#  twitter           : your_username
+  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -56,6 +56,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+
+
 
 ### Disqus ###
 disqus:
