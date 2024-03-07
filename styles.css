@@ -77,3 +77,36 @@ body, html {
     padding: 10px;
     text-align: center;
 }
+
+/*header*/
+header {
+    background-color: #333; /* Change the background color as desired */
+    color: #fff; /* Change the text color as desired */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add some padding for spacing */
+}
+
+.logo {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the logo text bold */
+    text-decoration: none; /* Remove underline from the logo link */
+    color: inherit; /* Inherit the text color from the parent element */
+}
+
+.menu {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+}
+
+.menu li {
+    margin-left: 20px; /* Add some spacing between the list items */
+}
+
+.menu a {
+    color: inherit; /* Inherit the text color from the parent element */
+    text-decoration: none; /* Remove underline from the links */
+}
