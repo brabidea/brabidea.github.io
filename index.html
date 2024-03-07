@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flickity-docs.css"> <!-- Flickity CSS -->
 </head>
 <body>
     <header>
@@ -25,31 +26,31 @@
                     <source src="NotreDame.mp4" type="video/mp4">
                 </video>
                 <div class="content">
-                    <h1>Brian Rabideau</h1>
-                    <p>Computer Science Student at the University of Notre Dame</p>
+                    <h1>John Doe</h1>
+                    <p>Software Engineering Student</p>
                 </div>
             </div>
         </section>
 
         <section class="projects">
             <h2>Featured Projects</h2>
-            <ul>
-                <li>
+            <div class="carousel">
+                <div class="carousel-cell">
                     <img src="spn.jpg" alt="Project 1">
-                    <h3>Substitution Permutation Network</h3>
-                    <p>Implementation in python of an outdated symmetric key, block cipher cryptosystem.</p>
-                </li>
-                <li>
+                    <h3>Project 1</h3>
+                    <p>Brief description of Project 1.</p>
+                </div>
+                <div class="carousel-cell">
                     <img src="project2.jpg" alt="Project 2">
                     <h3>Project 2</h3>
                     <p>Brief description of Project 2.</p>
-                </li>
-                <li>
+                </div>
+                <div class="carousel-cell">
                     <img src="project3.jpg" alt="Project 3">
                     <h3>Project 3</h3>
                     <p>Brief description of Project 3.</p>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
 
         <section class="interests">
@@ -66,6 +67,7 @@
         <p>&copy; 2023 Student Portfolio</p>
     </footer>
 
+    <script src="flickity-docs.min.js"></script> <!-- Flickity JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
