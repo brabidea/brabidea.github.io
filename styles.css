@@ -110,3 +110,41 @@ header {
     color: inherit; /* Inherit the text color from the parent element */
     text-decoration: none; /* Remove underline from the links */
 }
+
+
+.interests {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust the height as needed */
+}
+
+.interests-container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px; /* Adjust the width as needed */
+}
+
+.interests-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.interests-video video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
